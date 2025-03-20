@@ -1,0 +1,40 @@
+
+
+section {
+    padding: 2rem;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+section p {
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+}
+
+img {
+    max-width: 50%;
+    margin: auto;
+    display: block;
+    padding: 10px;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+dt {
+    margin:  6px;
+}
+
+

@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reserva | Restaurante Sakura</title>
-    <link rel="stylesheet" href="reserva.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/reserva.css">
 </head>
 <body>
     <header>
@@ -18,10 +19,59 @@
             </ul>
         </nav>
     </header>
+    <main>
 
+    
+    <section>
+        <h2>Reserva</h2>
+        
+        <form id="formulario-reserva">
+            <label for="nombre">Nombre y Apellidos</label>
+            <input type="text" id="nombre" name="nombre" required placeholder="Escribe tu nombre">
 
+            <label for="correo">Correo Electrónico</label>
+            <input type="email" id="correo" name="correo" required placeholder="Escribe tu correo electrónico">
 
+            <label for="telefono">Teléfono</label>
+            <input type="number" id="telelfono" name="telefono" required placeholder="Escribe tu número de teléfono">
+
+            <label for="fecha">Fecha de la Reserva</label>
+            <input type="date" id="fecha" name="fecha" required>
+
+            <label for="hora">Hora de la Reserva</label>
+            <select name="hora" id="hora">
+                <option value="12:00">12:00</option>
+                <option value="12:45">12:45</option>
+                <option value="13:30">13:30</option>
+                <option value="14:15">14:15</option>
+                <option value="15:00">15:00</option>
+                <option value="19:00">19:00</option>
+                <option value="19:45">19:45</option>
+                <option value="20:30">20:30</option>
+                <option value="21:15">21:15</option>
+
+            </select>
+
+            <label for="personas">Número de Personas</label>
+            <select name="personas" id="personas">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+            </select>
+            <button type="submit">Enviar</button>
+        </form>
+
+    </section>
+
+    </main>
+    
     <hr>
+    
     <footer>
         <p>Dirección: Calle 123, Ciudad.</p>
         <p>Derechos reservados &copy; 2025</p>

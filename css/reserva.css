@@ -1,0 +1,52 @@
+section {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    padding-top: 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(5, 5, 5, 0.1);
+
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-family: Georgia, 'Times New Roman', Times, serif;;
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
+input, select{
+    padding: 5px;
+    border: none;
+    background-color:#f1e9ec ;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+}
+
+button {
+    padding: 10px;
+    margin: auto;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: #f1e9ec;
+}
