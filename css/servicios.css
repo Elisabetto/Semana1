@@ -39,3 +39,17 @@ img {
     margin: auto;
     display: block;
 }
+
+button {
+    padding: 10px;
+    margin: auto;
+    border: solid rgb(104, 94, 94) 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: aliceblue;
+
+}
+
+.mostrar {
+    display: none;
+}
